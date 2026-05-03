@@ -8,8 +8,8 @@ import sys
 
 # ─── TELEGRAM ─────────────────────────────────────────────────────────────────
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
-CHAT_ID        = os.environ.get("CHAT_ID", "")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "8654852978:AAGoPa-oA9xeRb5Oh3lLHulVzqfM0JXaFcc")
+CHAT_ID        = os.environ.get("CHAT_ID", "7635744352")
 
 if not TELEGRAM_TOKEN or not CHAT_ID:
     print("ERRO: Configure as variáveis TELEGRAM_TOKEN e CHAT_ID no Railway.")
