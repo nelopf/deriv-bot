@@ -1,6 +1,0 @@
-python-telegram-bot==21.6
-ccxt==4.3.60
-pandas==2.2.2
-pandas-ta==0.3.14b
-schedule==1.2.2
-numpy==2.2.6
