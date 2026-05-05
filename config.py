@@ -18,7 +18,7 @@ if not TELEGRAM_TOKEN or not CHAT_ID:
 # Chave gratuita — 25 requests/dia
 # Gere a sua em: https://www.alphavantage.co/support/#api-key
 
-AV_API_KEY     = os.environ.get("0LXQ7XRWD1L424HH", "demo")
+AV_API_KEY     = os.environ.get("0LXQ7XRWD1L424HH", "0LXQ7XRWD1L424HH")
 AV_BASE_URL    = "https://www.alphavantage.co/query"
 
 # ─── SÍMBOLO ──────────────────────────────────────────────────────────────────
