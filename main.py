@@ -138,7 +138,7 @@ def analyze_signal(symbol):
 
     print(f"[{symbol}] score_buy={score_buy} score_sell={score_sell} rsi={rsi:.1f} macd={macd['macd_line']:.4f}")
 
-    if score_buy >= 5 and score_buy > score_sell:
+    if score_sell >= 6 and score_sell > score_buy and conf >= 80:
         return {"signal": "BUY", "confidence": conf, "price": price, "atr": atr,
                 "tp1": price + atr * 2, "tp2": price + atr * 3.5, "sl": price - atr * 1.5}
     if score_sell >= 5 and score_sell > score_buy:
