@@ -7,8 +7,8 @@ from datetime import datetime
 from collections import defaultdict
 
 # ── Configurações ─────────────────────────────────────────────
-TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "SEU_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "SEU_CHAT_ID")
+TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "8654852978:AAGoPa-oA9xeRb5Oh3lLHulVzqfM0JXaFcc")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "7635744352")
 DERIV_APP_ID     = os.environ.get("DERIV_APP_ID", "1089")
 
 # ATR multiplier calibrado por volatilidade de cada mercado
