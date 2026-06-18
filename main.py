@@ -6,8 +6,8 @@ from datetime import datetime, timezone
 from collections import defaultdict
 
 # ── Configurações ─────────────────────────────────────────────
-TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "SEU_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "SEU_CHAT_ID")
+TELEGRAM_TOKEN   = os.environ.get("TELEGRAM_TOKEN", "8654852978:AAGoPa-oA9xeRb5Oh3lLHulVzqfM0JXaFcc")
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "7635744352")
 
 MARKETS = [
     {"symbol": "^DJI",  "name": "US30 (Dow Jones)", "yf": "^DJI"},
